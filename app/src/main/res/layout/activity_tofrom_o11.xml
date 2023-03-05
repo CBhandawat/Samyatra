@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToFromF10Activity">
+
+    <TextView
+        android:id="@+id/offer_a_ride3"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:text="Offer A Ride"
+        android:textColor="@color/gradStart"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/leaving_from3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text1"
+        android:ems="10"
+        android:hint=" Leaving From"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStop"
+        android:textColorHint="@color/gradStop"
+        android:textCursorDrawable="@drawable/cursor_color"
+        app:layout_constraintBottom_toTopOf="@+id/going_to3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/offer_a_ride3"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <EditText
+        android:id="@+id/going_to3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edit_text1"
+        android:ems="10"
+        android:hint=" Going To"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStop"
+        android:textColorHint="@color/gradStop"
+        android:textCursorDrawable="@drawable/cursor_color"
+        app:layout_constraintBottom_toTopOf="@+id/leaving_time3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/leaving_time3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+       android:layout_marginBottom="80dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edit_text1"
+        android:ems="10"
+        android:hint="Your Approximate Leaving Time"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStop"
+        android:textColorHint="@color/gradStop"
+        android:textCursorDrawable="@drawable/cursor_color"
+        app:layout_constraintBottom_toTopOf="@+id/offer_my_ride_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/offer_my_ride_btn"
+        android:layout_width="203dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_default"
+        android:text="OFFER MY RIDE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        android:enabled="false"/>
+
+</android.support.constraint.ConstraintLayout>

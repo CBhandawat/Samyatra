@@ -1,0 +1,16 @@
+{
+    "projectName": "Samyatra",
+    "projectPath": "C:\\Users\\hp\\Desktop\\Samyatra",
+    "defaultEditor": "none",
+    "frontendHandler": {
+        "android": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-android"
+    },
+    "amplify-frontend-android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}

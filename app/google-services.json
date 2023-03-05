@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "4055658111",
+    "firebase_url": "https://samyatra-511f6.firebaseio.com",
+    "project_id": "samyatra-511f6",
+    "storage_bucket": "samyatra-511f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4055658111:android:07b93166d14dd70a",
+        "android_client_info": {
+          "package_name": "com.sahayatra.samyatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4055658111-ubqk0q8qru46qgembru9t1554i4u5li5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahayatra.samyatra",
+            "certificate_hash": "2a1bd0a808bfdf1f45e0091048cda061752bdefc"
+          }
+        },
+        {
+          "client_id": "4055658111-a8vbhfjgmcg47h5qtoabn00sgb8l1tf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDivlFYiyL3xp-KHqSz6WblpB-joi9SlhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4055658111-a8vbhfjgmcg47h5qtoabn00sgb8l1tf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

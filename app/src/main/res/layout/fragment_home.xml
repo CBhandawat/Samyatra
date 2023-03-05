@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Going Somewhere?"
+        android:textColor="@color/gradStart"
+        android:id="@+id/going_somewhere"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/going_somewhere"
+        android:text="Share your ride now!!!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/offer_a_ride"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/mybutton"
+        android:text="OFFER A RIDE"
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp" />
+
+    <Button
+        android:id="@+id/find_a_ride"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/offer_a_ride"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/mybutton"
+        android:text="FIND A RIDE"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginLeft="10dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/carpooling" />
+
+
+
+
+
+</RelativeLayout>

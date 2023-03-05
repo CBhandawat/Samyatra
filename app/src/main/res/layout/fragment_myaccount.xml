@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="@color/white">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/acc_name1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Name"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_email"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_email1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Email"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_mobile"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_mobile1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Phone no."
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_dob"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_dob1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="DOB"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_gender"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_gender1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Gender"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_city"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_city1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="City"
+                android:focusable="false"
+                android:clickable="false"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_state"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_state1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="State"
+                android:focusable="false"
+                android:clickable="false"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_sml"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_sml1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="Share My Location With"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_syp1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <EditText
+                android:id="@+id/acc_syp1"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="text"
+                android:text="Preference"
+                android:textColor="@color/gradStart"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/acc_lic_no"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/gradStart"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+
+    <EditText
+        android:id="@+id/car_number"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:hint="Car Number (Ex-CM14 TY 5678)"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStart"
+        android:textColorHint="@color/gradStart"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <EditText
+        android:id="@+id/car_model"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:hint="Car Model"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStart"
+        android:textColorHint="@color/gradStart"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <EditText
+        android:id="@+id/car_colour"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:hint="Car Colour"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStart"
+        android:textColorHint="@color/gradStart"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <EditText
+        android:id="@+id/lic_no"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:ems="10"
+        android:hint="License No.(Ex-CM14 12345678901)"
+        android:inputType="textPersonName"
+        android:textColor="@color/gradStart"
+        android:textColorHint="@color/gradStart"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/mybutton"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
